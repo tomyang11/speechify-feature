@@ -1,0 +1,53 @@
+.Page {
+  padding: 30px;
+  background-color: cornsilk;
+}
+
+.Page p {
+  text-align: start;
+}
+
+.App form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 2;
+}
+
+.App label {
+  margin: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.App input {
+  margin: 30px;
+  width: 30%;
+	padding: 12px 20px;
+	display: inline-block;
+	border: 0px;
+	border-radius: 8px;
+	box-sizing: border-box;
+	background-color: #f4f4f4;
+	font-size: 15px;
+}
+
+.App button {
+  margin: 30px;
+  background-color: #5271ff;
+  color: white;
+  padding: 10px 20px;
+  margin: 0px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.App button:hover {
+  background-color: #6883fc;
+}
