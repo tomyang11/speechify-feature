@@ -167,18 +167,18 @@ const App = () => {
     console.log(event.target.value);
   }
 
-  const modifiedDivsNew = pageContent.map((div, index) => {
-    const startingDivIndex = pageContent.findIndex(
-      div => div.props.className === 'StartingDiv'
-    );
-    return (
-      <div
-        className={index < startingDivIndex ? 'ignore' : ''}
-      >
-        {div.props.children}
-      </div>
-    );
-  });
+  // const modifiedDivsNew = pageContent.map((div, index) => {
+  //   const startingDivIndex = pageContent.findIndex(
+  //     div => div.props.className === 'StartingDiv'
+  //   );
+  //   return (
+  //     <div
+  //       className={index < startingDivIndex ? 'ignore' : ''}
+  //     >
+  //       {div.props.children}
+  //     </div>
+  //   );
+  // });
 
   const addClassnames = (pageContent, found) => {
     const startingDivIndex = pageContent.findIndex(div => div.props.children.includes(found));
